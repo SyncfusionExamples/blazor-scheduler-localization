@@ -1,0 +1,37 @@
+﻿@using System.Globalization
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+<select class="form-select w-auto" @bind="Culture">
+    @foreach (var culture in supportedCultures)
+    {
+        <option value="@culture">@culture.DisplayName</option>
+    }
+</select>
+
+@code {
+    private CultureInfo[] supportedCultures = new[]
+    {
+        new CultureInfo("de"), // German
+        new CultureInfo("fr-CH"), // French
+        new CultureInfo("en-US"), // English
+        new CultureInfo("ar"), // Arabic
+        new CultureInfo("zh") // Chinese (Hong Kong)
+    };
+
+    private CultureInfo Culture
+    {
+        get => CultureInfo.CurrentCulture;
+        set
+        {
+            if (CultureInfo.CurrentCulture.Name != value.Name)
+            {
+                // Use JS interop to set the culture in local storage.
+                JSRuntime.InvokeVoidAsync("cultureInfo.set", value.Name);
+
+                // Force a reload to apply the new culture.
+                NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+            }
+        }
+    }
+}
