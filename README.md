@@ -1,20 +1,46 @@
-# Blazor Scheduler Localization Examples
+# Blazor Scheduler Localization
 
-LocalizationScheduler examples showing localization of Syncfusion Blazor Scheduler in .NET8 Blazor Web App application.
+A comprehensive example demonstrating multi-language support for the [Blazor Scheduler component](https://www.syncfusion.com/blazor-components/blazor-scheduler) in a Blazor Web App environment. This sample showcases best practices for localizing interactive UI components with resource files and custom localizers.
+
+## Overview
+
+This project demonstrates how to implement localization (i18n) for the Blazor Scheduler component using .NET resource files and a custom string localizer. It includes support for multiple languages including English, German, French, Arabic, and Chinese.
+
+### Features
+
+- **Multi-language Support** – Built-in support for 5+ languages with extensible resource files
+- **Custom Localizer** – Implements `ISyncfusionStringLocalizer` for seamless component translation
+- **Blazor Web App** – Uses Blazor interactive rendering capabilities
+- **Resource Management** – RESX-based resource files for easy maintenance and updates
+- **Production Ready** – Follows Microsoft and best practices
 
 ## Prerequisites
 
-* Visual Studio 2022
+- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to run the project
+## Getting Started
 
-* Checkout this project to a location in your disk.
-* Open the specified application from the following folder `.NET8 Blazor Web App`.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+### Clone the repository
 
-> Always use latest resource (resx) files from [blazor locale](https://github.com/syncfusion/blazor-locale) repo.
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-scheduler-localization.git
+cd blazor-scheduler-localization
+```
 
-## See also
+### Run with Visual Studio
 
-* [Blazor Localization documentation](https://blazor.syncfusion.com/documentation/common/localization/)
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+## References
+
+- [Blazor Documentation](https://blazor.syncfusion.com/documentation/introduction)
+- [Blazor Localization Documentation](https://blazor.syncfusion.com/documentation/common/localization/)
+- [Blazor Scheduler Documentaion](https://blazor.syncfusion.com/documentation/scheduler/getting-started-webapp)
+- [Online Scheduler Demo](https://blazor.syncfusion.com/demos/scheduler/overview?theme=fluent2)
+
+
