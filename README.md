@@ -2,7 +2,7 @@
 
 ## Repository Description
 
-This repository contains practical examples demonstrating localization features of Syncfusion Blazor Scheduler component in .NET8 Blazor Web App applications. The examples showcase how to implement multi-language support and regional customization for calendar events and scheduler UI elements.
+This repository contains practical examples demonstrating localization features of [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) component in .NET8 Blazor Web App applications. The examples showcase how to implement multi-language support and regional customization for calendar events and scheduler UI elements.
 
 ## Overview
 
