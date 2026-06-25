@@ -1,12 +1,6 @@
 # Blazor Scheduler Localization Examples
 
-## Repository Description
-
-This repository contains practical examples demonstrating localization features of [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) component in .NET8 Blazor Web App applications. The examples showcase how to implement multi-language support and regional customization for calendar events and scheduler UI elements.
-
-## Overview
-
-LocalizationScheduler examples showing localization of Syncfusion Blazor Scheduler in .NET8 Blazor Web App application. This project demonstrates best practices for implementing scheduler localization with various culture and language configurations.
+This repository demonstrates localization features of the [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler) in .NET 8 Blazor Web App applications, showcasing multi-language support and regional customization of scheduler UI and events. It provides practical examples of configuring different cultures and languages, serving as a guide for implementing flexible and globally adaptable scheduling solutions.
 
 ## Features
 
@@ -19,15 +13,14 @@ LocalizationScheduler examples showing localization of Syncfusion Blazor Schedul
 ## Prerequisites
 
 * Visual Studio 2022
-* .NET 8 or later
-* Syncfusion Blazor NuGet packages
+* .NET 8.0 or later
 
 ## How to run the project
 
-* Checkout this project to a location in your disk.
-* Open the specified application from the following folder `.NET8 Blazor Web App`.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+1. Checkout this project to your local machine
+2. Open the solution file in Visual Studio 2022 from the `.NET8 Blazor Web App` folder
+3. Build the solution to restore the required NuGet packages
+4. Press `F5` to start the application
 
 > Always use latest resource (resx) files from [blazor locale](https://github.com/syncfusion/blazor-locale) repo.
 
